@@ -7,13 +7,13 @@ Creating a REST API using Hibernate, Spring Boot, and connecting it to an Androi
 + Language: Java
 + Spring Boot: (select the latest stable version)
 + Project Metadata:
-- Group: com.example
-- Artifact: SpringRestAPI
+ - Group: com.example
+ - Artifact: SpringRestAPI
 + Dependencies:
-- Spring Web
-- Spring Data JPA
+ - Spring Web
+ - Spring Data JPA
 - H2 Database
-- 
+  
 ### Step 2: Create the Project Structure
 Click on "Generate" to download the project and extract it to your workspace.
 ### Step 3: Configure application.properties
@@ -44,9 +44,7 @@ For creating a GET endpoint, we will use @GetMapping annotation. Within the anno
 |    METHOD    |      URL      |    DESCRIPTION    |
 | ------------ | ------------- | ----------------- |
 |     GET      |  /cems/event  |  List of events   |
-| ------------ | ------------- | ----------------- |
 |     POST     |  /cems/event  |   Save of events  |
-| ------------ | ------------- | ----------------- |
 
 ---
 ## 2- Setting Up Android Application
@@ -79,9 +77,8 @@ Create a repository class to call the API.
   
 ## 3. Running the Project
 1. Run Spring Boot Application:
-
-+Open the Spring Boot project in your IDE.
-+Run the application by executing the main method in the main application class.
++ Open the Spring Boot project in your IDE.
++ Run the application by executing the main method in the main application class.
 2. Run Android Application:
 + Connect your Android device or start an emulator.
 + Run the Android project from Android Studio.
