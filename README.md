@@ -10,9 +10,9 @@ Creating a REST API using Hibernate, Spring Boot, and connecting it to an Androi
   - Group: com.example
   - Artifact: SpringRestAPI
 + Dependencies:
- - Spring Web
- - Spring Data JPA
-- H2 Database
+  - Spring Web
+  - Spring Data JPA
+  - H2 Database
   
 ### Step 2: Create the Project Structure
 Click on "Generate" to download the project and extract it to your workspace.
