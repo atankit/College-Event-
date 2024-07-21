@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ClgEvents</string>
+    <string name="form_title">Title</string>
+    <string name="form_des">Description</string>
+    <string name="form_for">Event For</string>
+
+</resources>
