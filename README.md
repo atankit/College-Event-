@@ -7,8 +7,8 @@ Creating a REST API using Hibernate, Spring Boot, and connecting it to an Androi
 + Language: Java
 + Spring Boot: (select the latest stable version)
 + Project Metadata:
- * Group: com.example
- * Artifact: SpringRestAPI
+  - Group: com.example
+  - Artifact: SpringRestAPI
 + Dependencies:
  - Spring Web
  - Spring Data JPA
